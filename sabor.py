@@ -1,9 +1,9 @@
 import os
 
 #Essa variavel é uma maneira de criar uma lista no momento mas não armazena para sempre.
-restaurantes = [{'Nome': 'Praça', 'Categoria': 'Japonesa', 'Ativo': False},
-                {'Nome': 'Pizza Sub', 'Categoria': 'Italiana', 'Ativo': True},
-                {'Nome': 'Burgue', 'Categoria': 'Americana', 'Ativo': False}]
+restaurantes = [{'Nome': 'Sushi', 'Categoria': 'Japonesa', 'Ativo': False},
+                {'Nome': 'Pizza', 'Categoria': 'Italiana', 'Ativo': True},
+                {'Nome': 'Burguer', 'Categoria': 'Americana', 'Ativo': False}]
 
 def exibir_nome_do_programa():
     print("""
